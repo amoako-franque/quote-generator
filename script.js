@@ -43,7 +43,7 @@ async function getQuote() {
 
     removeLoadingSpinner()
   } catch (error) {
-    //getQuote()
+    getQuote()
     console.log("whoops no quote", error)
     //console.clear()
   }
